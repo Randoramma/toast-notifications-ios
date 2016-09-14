@@ -65,7 +65,7 @@ typedef enum {
 	NSString *text;
 }
 
-- (void) show;
+- (void) show; 
 - (void) show:(iToastType) type;
 - (iToast *) setDuration:(NSInteger ) duration;
 - (iToast *) setGravity:(iToastGravity) gravity 
